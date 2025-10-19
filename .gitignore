@@ -1,0 +1,13 @@
+#Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#virtual environment
+.venv/
+
+#results and caches
+results/
+.ipynb_checkpoints/
+.DS_Store
