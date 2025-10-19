@@ -21,6 +21,15 @@ python main.py --tickers AAPL MSFT SPY TLT --start 2015-01-01 --end 2025-01-01 -
 ```
 Outputs will be saved in `results/` and `results/plots/`.
 
+## Results (sample run)
+| Portfolio | Sharpe | Max Drawdown | Ann. Return | Ann. Vol |
+|-----------|:------:|:------------:|:-----------:|:--------:|
+| Dynamic   | 0.7345 |    -0.2745   |    0.0982   |  0.1276  |
+| Static    | 0.8978 |    -0.3201   |    0.1512   |  0.1568  |
+
+![Equity curves](results/plots/equity_curves.png)
+
+
 ## Repository Layout
 ```
 regime-switching-portfolio/
