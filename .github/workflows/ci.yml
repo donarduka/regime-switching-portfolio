@@ -14,7 +14,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest
-      - name: Smoke test (quick)
+      - name: Run tests
         run: |
-          python main.py --tickers SPY QQQ TLT GLD --start 2020-01-01 --end 2020-06-30 --states 3
-          pytest -q || true
+          pytest -q
