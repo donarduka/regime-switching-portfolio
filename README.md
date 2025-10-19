@@ -27,9 +27,6 @@ Outputs will be saved in `results/` and `results/plots/`.
 | Dynamic   | 0.7345 |    -0.2745   |    0.0982   |  0.1276  |
 | Static    | 0.8978 |    -0.3201   |    0.1512   |  0.1568  |
 
-![Equity curves](results/plots/equity_curves.png)
-
-
 ## Repository Layout
 ```
 regime-switching-portfolio/
